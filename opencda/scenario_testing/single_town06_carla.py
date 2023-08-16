@@ -12,6 +12,7 @@ from opencda.scenario_testing.utils.yaml_utils import add_current_time
 
 
 def run_scenario(opt, scenario_params):
+    eval_manager=None
     try:
         scenario_params = add_current_time(scenario_params)
 
